@@ -30,6 +30,7 @@ function DigitalClock() {
         })
     })
     return (
+        // this tags take data from functions of the above and the data of these tags are hour,munit,second,day of the week and date
         <div class="container">
             <span id="hours">{time}</span>
 
@@ -43,5 +44,6 @@ function DigitalClock() {
         </div>
     )
 }
+
 
 export default DigitalClock;
